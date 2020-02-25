@@ -1,0 +1,319 @@
+/*全部商品分类*/
+.allshop {
+    margin-top: 25px;
+    height: 46px;
+    line-height: 46px;
+}
+.allshop-l {
+    float: left;
+    height: 46px;
+    width: 210px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background-color: #B1191A;
+}
+.allshop ul {
+    float: left;
+    margin-left: 30px;
+    width: 800px;
+
+}
+.allshop ul li {
+    float: left;
+    margin: 0 25px;
+    font-size: 16px;
+    color: #333;
+}
+.hr1 {
+    border:1px solid #B1191A;
+}
+/*手机详情*/
+.details-l {
+    float: left;
+    width: 400px;
+}
+.details-l li {
+    float: left;
+}
+.details-l .ul-t {
+    height: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+.details-l .ul-t li {
+    font-size: 13px;
+    margin-left: 10px;
+}
+.details-l .bigphone {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+.smallphone {
+    height: 90px;
+}
+.smallphone .arrow-p {
+    float: left;
+    margin: 29px 0;
+}
+.smallphone .arrow-n {
+    float: right;
+    margin: 29px 0;
+}
+.smallphone .ul-b {
+    float: left;
+    width: 356px;
+}
+.smallphone li {
+    width: 56px;
+    height: 56px;
+    margin: 17px 7px;
+    background: url(../upload/pre.jpg) no-repeat ;
+}
+/*右侧*/
+.details-r {
+    float: right;
+    width: 717px;
+    height: 517px;
+    margin-top: 50px;
+}
+.details-r-t h3 {
+    font-size: 16px;
+    color: #333333;
+}
+.details-r-t p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #e12228;
+}
+.details-r-m {
+    width: 717px;
+    height: 115px;
+    margin-top: 15px;
+    background-color: #fee9eb;
+}
+.detprice-t {
+    height: 50px;
+    line-height: 50px;
+}
+.detprice-t p,.detprice-t span,.detprice-t a {
+    float: left;
+}
+.detprice-t i {
+    float: right;
+    margin-right: 15px;
+}
+.detprice-t p{
+    width: 25px;
+    margin: 0 15px;
+}
+.detprice-t span {
+    font-size: 24px;
+    color: #e12228;
+    margin: 0 15px 0 20px;
+}
+.detprice-t a {
+    color: #c81623;
+}
+.detprice-b {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 510px;
+    height: 65px;
+    line-height: 25px;
+}
+.detprice-b .cuxiao,.detprice-b span,.detprice-b p {
+    float: left;
+} 
+.detprice-b .cuxiao {
+    width: 40px;
+    height: 25px;
+}
+.detprice-b span {
+    height: 72px;
+    width: 450px;
+    margin-left: 20px;
+}
+
+.detprice-b p {
+    height: 23px;
+    width: 40px;
+    line-height: 23px;
+    margin-right: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #c81623;
+}
+.details-r-b {
+    margin-top: 10px;
+}
+/*======*/
+ .details-r-b dt, .details-r-b dd{
+    float: left;
+}
+.rbone {
+    height: 36px;
+}
+.rbone dt{
+    margin: 0 30px 0 15px;
+}
+.rbtwo {
+    width: 450px;
+    height: 40px;
+    margin-top: 10px;
+}
+.rbtwo a, .rbtwo dt {
+    float: left;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.rbtwo a {
+    margin-right: 5px;
+    border:1px solid #ccc;
+}
+/*加入购物车*/
+.details-r .car {
+    height: 50px;
+    margin-top: 20px;
+}
+.details-r ul {
+    float: left;
+    width: 46px;
+    height: 50px;
+    /*border:1px solid #ccc;*/
+
+}
+.details-r ul li {
+    float: left;
+}
+.details-r ul input {
+    height: 48px;
+    text-align: center; 
+    width: 29px;
+    border:1px solid #ccc;
+}
+.details-r ul a {
+    display: block;
+    height: 24px;
+    line-height: 25px;
+    text-align: center;
+    width: 12px;
+    border-top:1px solid #ccc;
+    border-right:1px solid #ccc;
+
+    background-color: #f1f1f1;
+}
+.details-r ul .a1 {
+    height: 23px;
+    border-bottom: 1px solid #ccc;
+}
+.details-r .jiaru {
+    float: left;
+    margin-left: 20px;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #c81623;
+}
+.details-r .jiaru:hover {
+    color: red;
+}
+
+/*超级大框 详情页 */
+.particular {
+    margin-top: 50px;
+/*    background-color: pink; */
+}
+/*超级大框 详情页左侧*/
+.particular-l {
+    float: left;
+    width: 210px;
+    border:1px solid #ccc;
+}
+.particular-l .fenlei {
+    height: 35px;
+    background-color: #f1f1f1;
+}
+.fenlei li {
+    float: left;
+    height: 35px;
+    width: 104px;
+    line-height: 35px;
+    text-align: center;
+}
+.fenlei .fle1 {
+    height: 34px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.smallhw {
+    padding: 0 10px;
+}
+.smallhw li {
+    border-bottom: 1px solid #ccc;
+}
+.smallhw li p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.smallhw li a {
+    display: block;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border:1px solid #ccc;
+    margin: 10px 50px;
+}
+/*超级大框 详情页右侧*/
+.particular-r {
+    float: left;
+    width: 978px;
+    margin-left: 10px;
+}
+.particular-r ul {
+    height: 40px;
+    width: 950px;
+    line-height: 40px;
+
+    border:1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.particular-r li {
+    float: left;
+}
+.particular-r li a {
+    padding: 0 20px;
+}
+.red {
+    background-color: #c81623;
+}
+.red a {
+    color: #fff;
+}
+.canshu {
+    margin: 20px;
+}
+.canshu p {
+    line-height: 22px;
+}
+.canshu h4 {
+    float: right;
+}
+.canshu h4 i {
+    font-family: 'icomoon';
+}

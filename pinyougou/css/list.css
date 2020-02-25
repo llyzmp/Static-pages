@@ -1,0 +1,184 @@
+/*logo旁边多个秒杀修改一点样式*/
+.header-hd .hd-midall {
+    margin-left: 100px;
+}
+.header-hd .logo span {
+    display: inline-block;
+    font-size: 25px;
+    color: #b1191a;
+    margin: 0 10px; 
+}
+/*购物车上边的定位*/
+.header-hd .hd-r {
+    position: relative;
+    margin-top: 0;
+}
+.header-hd .hd-r .amount {
+    position: absolute;
+    top: -6px;
+    right: 30px;
+    width: 20px;
+    height: 15px;  
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 7px 8px 7px 0;
+    background-color: #E60012;
+}
+/*开始部分*/
+.seckill {
+    height: 45px;
+    margin-top: 30px;
+    line-height: 45px;
+    
+}
+.seckill li{
+    float: left;
+}
+.seckill .ul-l {
+    float: left;
+    width: 370px;
+}
+.seckill .ul-l a {
+    margin: 0 25px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.seckill .ul-r {
+    float: right;
+    width: 810px;
+}
+.seckill .ul-r a {
+    margin: 0 23px;
+    font-size: 14px;
+}
+.seckill .ul-r i {
+    font-family: 'icomoon';
+    font-size: 16px;
+}
+.hrrr {
+    margin-top: 2px;
+    border:1px solid #b1191a ;
+}
+/*手机列表*/
+.phone {
+    width: 1212px;
+}
+.phone .pic0 {
+    margin-bottom: 20px;
+}
+.phone ul li {
+    float: left;
+    width: 290px;
+    margin-right: 11px;
+    margin-bottom: 10px;
+    border:1px solid transparent;
+}
+.phone ul li:hover {
+    border:1px solid red;
+}
+.phone ul img {
+    width: 100%;
+}
+.phone h4 {
+    padding: 10px;
+    font-size: 13px;
+}
+.price {
+    padding-left: 10px;
+}
+.price p {
+    display: inline-block;
+    font-size: 22px;
+    color: red;
+}
+.price del {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ccc;
+
+}
+.bold {
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 10px;
+}
+.bold p {
+    float: left;
+}
+.bold span {
+    color: red;
+}
+.bold .per0 {
+    float: left;
+    width: 130px;
+    height: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+.bold .per1 {
+    width: 87%;
+    height: 100%;
+    background-color: red;
+}
+/*立即抢购*/
+.snap a {
+    display: inline-block;
+    width: 290px;
+    height: 50px;
+    background-color: #b1191a;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.snap a:hover {
+    color: red;
+}
+/*底部选择页面*/
+.selectpage {
+    margin-top: 50px;
+    height: 36px;
+    line-height: 36px;
+}
+.selectpage ul {
+    float: left;
+    margin-left: 280px;
+}
+.selectpage li,.selectpage p,.selectpage input,.selectpage span {
+    float: left;
+}
+.selectpage li {    
+    margin-right: 5px;   
+    border:1px solid #ccc;
+}
+.selectpage li a{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+}
+.selectpage .uppage a,.selectpage .downpage a{
+    width: 85px;
+}
+.selectpage input {
+    width: 42px;
+    height: 38px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    transition: all 0.5s;
+}
+.selectpage input:focus {
+        width: 80px;     
+    }
+.selectpage span {
+    width: 40px;
+    height: 38px;
+    margin: 0 5px;
+    text-align: center;
+    border:1px solid #ccc;
+}

@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #4e4d4b;
+}
+li {
+    list-style: none;
+}
+/*版心*/
+.w {
+    width: 870px;
+    margin: 0 auto;
+}
+body {
+    background-color: #f7f7f7;
+}
+input {
+  outline: none;
+}
+/*双伪元素清除浮动*/
+.clearfix:before,.clearfix:after { 
+  content:"";
+  display:table; 
+}
+.clearfix:after {
+ clear:both;
+}
+.clearfix {
+  *zoom:1;
+}
+/*声明字体图标*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?7kkyc2');
+    src:  url('fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*头部*/
+.header {
+  height: 64px;
+  line-height: 64px;
+}
+.header-l {
+  float: left;
+  width: 466px;
+}
+.header-l h1 a{
+  float: left;
+  overflow: hidden;
+  margin: 15px 20px 0 0;
+  width: 121px;
+  height: 33px;
+  background: url(img/logo.png) no-repeat;
+  text-indent: -9999px;
+}
+.header-l li {
+  float: left;
+}
+.header-l li a {
+  display: block;
+  padding: 0 10px;
+}
+.header-l li a:hover {
+  background-color: #30c37c;
+  color: #fff;
+}
+.header-r {
+  float: left;
+  margin-left: 7px;
+}
+.header-r .search {
+  float: left;
+  position: relative;
+}
+.header-r ul {
+  float: left;
+}
+.header-r ul li {
+  float: left;
+}
+.header-r .search input {
+  width: 155px;
+  height: 30px;
+  border:1px solid #ccc;
+  color: #9d9d9d;
+}
+.search i {
+  position: absolute;
+  font-family: 'icomoon';
+  right: 5px;
+  top: 2px;
+  font-style: normal;
+  color: #9d9d9d;
+}
+.header-r .login {
+  margin: 0 15px;
+}
+.dredge ,.payfor {
+  display: block;
+  height: 30px;
+  margin-top: 17px;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+}
+.dredge  {
+   width: 90px;
+   background-color: #31c37c;
+   color: #fff;
+}
+.payfor  {
+    width: 80px;
+    margin-left: 10px;  
+    border:1px solid #ccc;
+}
+/*新歌*/
+.newsong {
+  height: 520px;
+  background: url(img/10.jpg) no-repeat;
+}
+.w h2 {
+  height: 100px;
+  line-height: 125px;
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.songlist-hd {
+  height: 35px;
+}
+.songlist-hd ul {
+  float: left;
+  margin-left: 255px;
+}
+.songlist-hd li {
+  float: left;
+}
+.songlist-hd li a {
+  height: 35px;
+  padding: 0 22px;
+  color: #fff;
+}
+.songlist-hd p {
+  float: right;
+}
+.songlist-hd p a {
+  color: #fff;
+}
+.songlist-hd i {
+  color: #fff;
+  font-family: 'icomoon';
+  font-size: 14px;
+  font-style: normal;
+}
+.songlist-bd li {
+  float: left;
+  width: 217px;
+  height: 300px;
+  font-size:12px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.7);
+}
+.songlist-bd li img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.songlist-bd p,.songlist-bd span {
+  text-align: center;
+}
+.songlist-bd span {
+  display: block;
+  margin-top: 10px;
+  color: #ccc;
+}
+/*热门歌单*/
+.hotlist h2 {
+  color: #353535;
+}
+.hotlist p {
+  padding: 0 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hotlist li {
+  margin-bottom: 80px;
+}
+/*MV首播*/
+.mv {
+  height: 375px;
+  background-color: #ccc;
+}
+.mv h2 {
+  color: #353535;
+}
+.mv .songlist-hd a ,.mv .songlist-hd i{
+  color: #353535;
+}
+.mv .songlist-bd li{
+  height: 220px;
+  background-color: #ccc;
+}
+.mv .songlist-bd span {
+  color:#9e9a99;
+}
+.mv .songlist-bd p {
+  padding: 0 20px;
+  color: #353535;
+}
+.mv .songlist-bd .elsp {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*底部*/
+.footer {
+  height: 300px;
+  padding-top: 50px;
+  background-color: #333333;
+}
+.ft dl {
+  float: left;
+}
+.ft dt {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #7f7f7f;
+}
+.ft dd {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.ft a {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 12px;
+}
+.ft span {
+  display: block;
+  font-size: 12px;
+  margin-top: 9px;
+  text-align: center;
+  color: #7f7f7f;
+}
+.ft .tese {
+  margin-left: 30px;
+}
+.ft .pic1 a {
+  background: url(img/footer.png) no-repeat 0 0;
+}
+.ft .pic2 a {
+  background: url(img/footer.png) no-repeat -68px 0;
+}
+.ft .pic3 a {
+  background: url(img/footer.png) no-repeat -137px 0;
+}
+.ft .pic4 a {
+  background: url(img/footer.png) no-repeat -204px 0;
+}
+/*鼠标经过下载客户端时*/
+.ft .pic1 a:hover {
+  background: url(img/footer.png) no-repeat 0 -34px;
+}
+.ft .pic2 a:hover {
+  background: url(img/footer.png) no-repeat -68px -34px;
+}
+.ft .pic3 a:hover {
+  background: url(img/footer.png) no-repeat -137px -34px;
+}
+.ft .pic4 a:hover {
+  background: url(img/footer.png) no-repeat -204px -34px;
+}
+/*特色产品*/
+.ft .pic5 a {
+  background: url(img/footer.png) no-repeat -273px 0;
+}
+.ft .pic6 a {
+  background: url(img/footer.png) no-repeat -341px 0;
+}
+.ft .pic7 a {
+  background: url(img/footer.png) no-repeat -417px 0;
+}
+
+.ft .pic5 a:hover {
+  background: url(img/footer.png) no-repeat -273px -34px;
+}
+.ft .pic6 a:hover {
+  background: url(img/footer.png) no-repeat -341px -34px;
+}
+.ft .pic7 a:hover {
+  background: url(img/footer.png) no-repeat -417px -34px;
+}
+/*合作连接*/
+.hezuo {
+  float: right;
+ height: 85px;
+}
+.hezuo p {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.hezuo ul {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 75px;
+}
+.hezuo li {
+  font-size: 12px;
+  line-height: 24px;
+  color: #7f7f7f;
+}
+/*版权*/
+.copyright {
+  margin-top: 100px;
+  text-align: center;
+}
+.copyright span {
+  display: block;
+}
+.copyright {
+  font-size: 10px;
+}

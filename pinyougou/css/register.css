@@ -1,0 +1,113 @@
+/*logo部分*/
+.logo img{
+    margin: 15px 0 10px 0;
+}
+.logo hr {
+    border-color:  #B1191A;
+}
+/*用户信息*/
+.userinfo {
+    height: 600px;
+    margin-top: 20px;
+    border:1px solid #ccc;
+}
+.userinfo .user-hd {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+}
+.user-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+}
+.user-hd p {
+    float: right;
+    font-size: 14px;
+}
+.user-hd span {
+    color: #c81623;
+}
+/*中间信息*/
+table {
+    width: 560px;
+    height: 300px; 
+    margin: 30px auto;
+}
+
+.wenzi{
+    height: 35px;
+    line-height: 58px;
+    float: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+tr input {
+    width: 245px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+.anquan {
+    float: right;
+    margin-right: 8px;
+}
+.anquan p,.anquan span {
+    float: left;
+    font-size: 12px;
+}
+.anquan p {
+    margin-right: 10px;
+    color: #b2b2b2;
+}
+.anquan span {
+    width: 35px;
+    height: 10px;
+    margin: 5px 1px;
+    color: #fff;
+    text-align: center;
+    line-height: 10px;
+}
+.anquan .qiang {
+    background-color: red;
+}
+.anquan .zhong {
+    background-color: green;
+}
+.anquan .ruo {
+    background-color: orange;
+}
+/*同意协议*/
+.xieyi {
+    width: 260px;
+    margin-left: 425px;
+}
+.xieyi span {
+    color: blue;
+}
+.wancheng {
+    width: 200px;
+    height: 35px;
+    margin: 50px 0 0 425px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #c81623;
+}
+
+/*底部文字*/
+.footer-btm {
+    padding-top: 50px;
+}
+.footer-btm p {
+    text-align: center;
+}
+.footer hr {
+    color: #ccc;
+}
+.footer-btm .about {
+    margin-bottom: 15px;
+}
